@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+body {
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(44, 139, 44);
+    overflow: hidden;
+    background:  #1b1b1b;
+}
+
+h1 {
+    margin: 20px;
+}

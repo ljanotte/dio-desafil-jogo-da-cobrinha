@@ -1,0 +1,7 @@
+PS > 
+PS > git clone https://github.com/ljanotte/dio-desafil-instagram-perfil.git
+PS > cd dio-desafil-instagram-perfil
+PS > code .
+PS > npm init -yf
+PS > npm install -g browser-sync -save-dev
+PS > browser-sync start --proxy localhost:8080 --serveStatic 'public' --files 'public'

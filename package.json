@@ -1,0 +1,27 @@
+{
+  "name": "dio-desafil-jogo-da-cobrinha",
+  "version": "1.0.0",
+  "description": "Recriando o jogo da cobrinha com JavaScrip",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "scripts": {
+    "start": "browser-sync start --proxy localhost:8080 --serveStatic 'public' --files 'public'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljanotte/dio-desafil-jogo-da-cobrinha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljanotte/dio-desafil-jogo-da-cobrinha/issues"
+  },
+  "homepage": "https://github.com/ljanotte/dio-desafil-jogo-da-cobrinha#readme"
+}
